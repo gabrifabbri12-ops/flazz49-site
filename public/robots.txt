@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flazz49.netlify.app/sitemap.xml
