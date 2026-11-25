@@ -6,13 +6,13 @@ Il build produce un unico `index.html` con CSS e JS già incorporati.
 ## Comandi
 
 ```bash
-npm ci          # installa le dipendenze
+npm install     # installa le dipendenze
 npm run build   # genera la cartella dist/
 ```
 
 ## Deploy
 
-Netlify: Build command `npm run build`, Publish directory `dist` (già impostati in `netlify.toml`).
+Netlify: build `npm install && npm run build`, publish directory `dist` (già impostati in `netlify.toml`).
 
 ## Contenuti da modificare
 
