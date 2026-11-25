@@ -6,13 +6,22 @@ Il build produce un unico `index.html` con CSS e JS già incorporati.
 ## Comandi
 
 ```bash
-npm install     # installa le dipendenze
-npm run build   # genera la cartella dist/
+npm install                     # installa le dipendenze
+node scripts/fetch-assets.mjs   # scarica le immagini (solo la prima volta)
+npm run build                   # genera la cartella dist/
 ```
 
 ## Deploy
 
-Netlify: build `npm install && npm run build`, publish directory `dist` (già impostati in `netlify.toml`).
+Netlify: build `npm install && node scripts/fetch-assets.mjs && npm run build`,
+publish directory `dist` (già impostati in `netlify.toml`).
+
+## Immagini
+
+`public/og.png` e `public/images/flazzo-about.png` non sono versionate: lo script
+`scripts/fetch-assets.mjs` le scarica dal sito pubblicato. Per averle nel repository
+basta copiarle in `public/` (lo script salta i file già presenti) e togliere le due
+righe corrispondenti da `.gitignore`.
 
 ## Contenuti da modificare
 

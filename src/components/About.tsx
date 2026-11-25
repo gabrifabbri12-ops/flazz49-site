@@ -31,7 +31,7 @@ export default function About() {
             className="relative"
           >
             <img
-              src="/images/flazzo-about.webp"
+              src="/images/flazzo-about.png"
               alt="Flazzo_49"
               className="relative mx-auto w-64 sm:w-80 lg:w-96"
             />
