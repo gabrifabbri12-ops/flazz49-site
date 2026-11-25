@@ -1,7 +1,10 @@
-# flazz49 — sito ufficiale
+# flazzo49 — sito ufficiale
 
 Sito one-page di FLAZZO_49 (Twitch, clip, Discord), React + Vite + Tailwind 4.
 Il build produce un unico `index.html` con CSS e JS già incorporati.
+
+Indirizzo del sito: **https://flazzo49.netlify.app/** (se cambi nome al sito su
+Netlify, aggiorna `index.html`, `public/robots.txt` e `public/sitemap.xml`).
 
 ## Comandi
 
@@ -19,9 +22,11 @@ publish directory `dist` (già impostati in `netlify.toml`).
 ## Immagini
 
 `public/og.png` e `public/images/flazzo-about.png` non sono versionate: lo script
-`scripts/fetch-assets.mjs` le scarica dal sito pubblicato. Per averle nel repository
-basta copiarle in `public/` (lo script salta i file già presenti) e togliere le due
-righe corrispondenti da `.gitignore`.
+`scripts/fetch-assets.mjs` le scarica dal sito pubblicato (prova prima
+`flazzo49.netlify.app`, poi `flazz49.netlify.app`; si può forzare un indirizzo con
+la variabile `ASSETS_SOURCE`). Per averle nel repository basta copiarle in
+`public/` (lo script salta i file già presenti) e togliere le due righe
+corrispondenti da `.gitignore`.
 
 ## Contenuti da modificare
 
