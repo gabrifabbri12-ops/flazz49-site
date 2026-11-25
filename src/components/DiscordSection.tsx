@@ -50,7 +50,7 @@ export default function DiscordSection() {
             href={LINKS.discord}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-10 inline-flex items-center gap-3 rounded-xl bg-blurple px-8 py-4 font-mono text-sm font-bold uppercase tracking-[0.18em] text-white transition-all hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(88,101,242,0.6)]"
+            className="mt-10 inline-flex items-center gap-3 rounded-xl bg-blurple px-8 py-4 font-mono text-sm font-bold uppercase tracking-[0.18em] text-white transition-all hover:-translate-y-1 hover:shadow-[0_0_50px_rgba(88,101,242,0.6)]"
           >
             <DiscordIcon className="h-5 w-5" />
             Apri l'invito Discord
